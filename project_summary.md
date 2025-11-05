@@ -7,6 +7,7 @@ Azure Logic App – Email Automation Workflow
 
 I created an Azure Logic App that serves as the brain of the system.
 It uses a Recurrence trigger to automatically start the workflow every Monday and Friday at noon, sending out reading plan updates right on schedule.
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 Azure Cosmos DB – Dynamic Data Source
