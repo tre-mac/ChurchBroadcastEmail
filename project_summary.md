@@ -26,7 +26,7 @@ The Logic App queries these containers each run — dynamically pulling the late
 
 Personalized Email Delivery
 
-Using the Outlook connector, the Logic App loops through all members in the database and sends each one a personalized HTML email.
+Using the Outlook connector, the Logic App loops through all members in the database and sends each one a personalized email.
 The message includes:
 
 The current week’s reading plan (pulled from Cosmos DB)
