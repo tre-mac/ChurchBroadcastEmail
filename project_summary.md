@@ -2,12 +2,12 @@
 
 This project started when my pastor approached me looking for a better way to share our church’s weekly Bible reading plan with members.
 Instead of posting the updates manually on social media, I decided to build an automated cloud-based email system using Microsoft Azure that could handle everything on its own.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------------------------------------
 Azure Logic App – Email Automation Workflow
 
 I created an Azure Logic App that serves as the brain of the system.
 It uses a Recurrence trigger to automatically start the workflow every Monday and Friday at noon, sending out reading plan updates right on schedule.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 Azure Cosmos DB – Dynamic Data Source
 
@@ -16,7 +16,7 @@ I built a Cosmos DB database named ChurchData with two containers:
 ReadingPlans – stores the current week’s plan (week number, start/end dates, and reading text)
 
 Members – stores member details (name, email, and group tags like Dream Team or Church Members)
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 The Logic App queries these containers each run — dynamically pulling the latest plan and matching it with each member’s information.
 
