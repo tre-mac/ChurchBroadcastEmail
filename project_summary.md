@@ -28,6 +28,9 @@ Members – stores member details (name, email, and group tags like Dream Team o
 
 ![Example Image](project_details/Member2.png)
 
+![Example Image](project_details/test1.png)
+
+![Example Image](project_details/test2.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 The Logic App queries these containers each run — dynamically pulling the latest plan and matching it with each member’s information.
