@@ -28,7 +28,7 @@ Members – stores member details (name, email, and group tags like Dream Team o
 
 ![Example Image](project_details/Member2.png)
 
-![Example Image](project_details/test1.png)
+
 
 ![Example Image](project_details/test2.png)
 ---------------------------------------------------------------------------------------------------------------------------------------------
