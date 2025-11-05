@@ -10,6 +10,8 @@ Azure Logic App – Email Automation Workflow
 I created an Azure Logic App that serves as the brain of the system.
 It uses a Recurrence trigger to automatically start the workflow every Monday and Friday at noon, sending out reading plan updates right on schedule.
 
+![Example Image](project_details/Recurrence.png)
+
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
 Azure Cosmos DB – Dynamic Data Source
@@ -18,7 +20,13 @@ I built a Cosmos DB database named ChurchData with two containers:
 
 ReadingPlans – stores the current week’s plan (week number, start/end dates, and reading text)
 
+![Example Image](project_details/Week_readingplan.png)
+
 Members – stores member details (name, email, and group tags like Dream Team or Church Members)
+
+![Example Image](project_details/Member1.png)
+
+![Example Image](project_details/Member2.png)
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -36,6 +44,11 @@ A personalized greeting using the member’s name
 The church’s signature at the end
 
 Member Group Targeting 
+
+![Example Image](project_details/LogicApp.png)
+
+
+
 
 ---------------------------------------------------------------------------------------------------------------------------------------------
 
