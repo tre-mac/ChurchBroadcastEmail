@@ -2,7 +2,7 @@
 
 This project started when my pastor approached me looking for a better way to share our church’s weekly Bible reading plan with members.
 Instead of posting the updates manually on social media, I decided to build an automated cloud-based email system using Microsoft Azure that could handle everything on its own.
---------------------------------------------------------------------------------------------------------------------------------------------
+
 Azure Logic App – Email Automation Workflow
 
 I created an Azure Logic App that serves as the brain of the system.
